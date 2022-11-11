@@ -1,0 +1,55 @@
+:root {
+
+    --jeapordy-light: #7b0fe8;
+    --jeapordy-dark: #5600ac;
+
+}
+
+@font-face {
+
+    font-family: "Jeopardy";
+    src: url("fonts/jeopardy.ttf");
+    
+}
+
+.Option-button:hover {
+    
+    background-color: var(--jeapordy-light);
+    transform: scale(1.1);
+    box-shadow: 0 0 0.5em black;
+
+}
+
+.Option-button:disabled,
+.Option-button[disabled] {
+    
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  pointer-events: none;
+
+}
+
+.Option-button {
+
+    width: 15vw;
+    height: 17vh;
+    color: rgb(240, 240, 240);
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: var(--jeapordy-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: "Jeopardy";
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    margin: 0.1em;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0.05em 0.05em 0.1em black;
+
+}
+
+.Option-button:active { transform: scale(0.95); }
