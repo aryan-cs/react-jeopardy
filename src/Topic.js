@@ -7,7 +7,7 @@ function Topic (props) {
 
     <div className = "Column">
       
-      {/* topic */}
+      <h className = "Title"> {props.genre} </h>
 
       <Option genre = {props.genre} value = "100" question = "1 + 1 = "/>
       <Option genre = {props.genre} value = "200" question = "1 + 1 = "/>

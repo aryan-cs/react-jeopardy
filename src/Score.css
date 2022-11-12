@@ -1,0 +1,19 @@
+.Score {
+
+    left: 0em;
+    bottom: 0em;
+
+    padding-left: 0.3em;
+    padding-right: 0.8em;
+    padding-top: 0.3em;
+
+    border-radius: 0.1em 3em 0.1em 0.1em;
+    background-color: rgb(42, 42, 42);
+    color: white;
+    font-size: 6em;
+    font-family: "Jeopardy";
+    position: absolute;
+    z-index: 3;
+    box-shadow: 0em 0em 0.1em black;
+
+}

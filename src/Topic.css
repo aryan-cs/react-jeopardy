@@ -1,3 +1,10 @@
+@font-face {
+
+  font-family: "Jeopardy";
+  src: url("fonts/jeopardy.ttf");
+  
+}
+
 .Column {
 
   height: 100%;
@@ -5,4 +12,21 @@
   flex-direction: column;
   float: left;
   
+}
+
+.Title {
+
+  background: #2f2f2f;
+  color: #dedede;
+  padding: 0.4em;
+  margin: 0.25em;
+  transform: translateY(0.1em);
+  justify-content: center;
+  display: flex;
+  font-size: 1.8em;
+  font-family: "Jeopardy";
+  z-index: 2;
+  border-radius: 10px;
+  box-shadow: 0em 0em 0.3em black;
+
 }
